@@ -47,9 +47,7 @@ width: 100%;
   margin: 2px;
 }
 
-.submenu{
-    
-}
+
 
 .nav a {
   display: block;
@@ -60,7 +58,7 @@ width: 100%;
   padding: 25px 25px;
   border-radius: 15px;
   font-weight: bold;
-  transition: color 0.4s;
+  transition: color 0.4s; 
 }
 
 #btn-acasa { background-color: #ff5733;font-size: 18px;}
@@ -69,10 +67,7 @@ width: 100%;
 #btn-tarife { background-color: #ff33d4; font-size: 18px;}
 #btn-contact { background-color: #f3ff33; font-size: 18px;}
 
-.nav a:hover {
-  background-color: #555;
-  color: black;
-}
+
 
 .logo {
   display: flex;
@@ -93,18 +88,26 @@ width: 100%;
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.5s ease, opacity 0.4s ease;
+  /* transition: max-height 0.5s ease, opacity 0.4s ease; */
   top: 100%;
   left: 0;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   list-style: none;
   margin: 0;
   padding: 10px 0;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   z-index: 1001;
   min-width: 250px;
+ 
 } 
+
+.submenu a {
+
+  color:white;
+  font-size: 14px;
+  
+}
 
 .dropdown {
   position: relative;
@@ -124,13 +127,10 @@ width: 100%;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  transition: background-color 0.6s;
+  
 }
 
-.submenu li:hover {
-  background-color: white;
-} 
- 
+
 .sectiunea1{
     
     display: flex;
