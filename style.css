@@ -1,0 +1,190 @@
+/* RESET & BAZĂ */
+* {
+ 
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* body {
+  margin: 0;
+  
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+  -webkit-text-size-adjust: none;
+  margin: 200px;
+} */
+
+/* NAVIGAȚIE */
+
+
+.nav {
+  background-color: white;
+  position: sticky; 
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.nav .nav-container {
+  display: flex;
+  align-items: center;
+width: 100%;
+  padding: 10px 5%;
+  flex-wrap: wrap;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+
+}
+
+.nav li {
+  margin: 2px;
+}
+
+.submenu{
+    
+}
+
+.nav a {
+  display: block;
+  color: white;
+  /* background-color: #444; */
+  text-decoration: none;
+  font-size: 10px;
+  padding: 25px 25px;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: color 0.4s;
+}
+
+#btn-acasa { background-color: #ff5733;font-size: 18px;}
+#btn-scanstart { background-color: #33c1ff;font-size: 18px; }
+#btn-servicii { background-color: #75ff33; font-size: 18px;}
+#btn-tarife { background-color: #ff33d4; font-size: 18px;}
+#btn-contact { background-color: #f3ff33; font-size: 18px;}
+
+.nav a:hover {
+  background-color: #555;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  gap: 4px;
+  margin-right: 15px;
+}
+
+.logo img {
+  height: 35px;
+  width: auto;
+}
+
+ /* SUBMENIU  */
+ .submenu {
+  position: absolute;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.4s ease;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 8px;
+  z-index: 1001;
+  min-width: 250px;
+} 
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .submenu {
+  max-height: 500px;
+  opacity: 1;
+  padding: 10px 0;
+  display: block;
+}
+
+.submenu li {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.6s;
+}
+
+.submenu li:hover {
+  background-color: white;
+} 
+ 
+.sectiunea1{
+    
+    display: flex;
+    align-items: center;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+.s1-img{
+
+    
+    height: auto;
+}
+
+.s1-text{
+    font-family: 'Trebuchet MS',sans-serif;
+    color:#827c7c;
+    width: 35%;
+
+}
+
+.s1-text a{
+    color:#3fbfad;
+    text-decoration: none;
+}
+
+
+.sectiunea1 h2{
+
+    color:black;
+
+}
+
+.sectiunea2{
+
+    display: flex;
+    align-items: center;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.s2-text{
+    font-family: 'Trebuchet MS',sans-serif;
+    color:#827c7c;
+}
+
+.sectiunea2 h2{
+
+    color:black;
+
+}
+
