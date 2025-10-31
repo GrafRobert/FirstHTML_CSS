@@ -47,7 +47,22 @@ width: 100%;
   margin: 2px;
 }
 
+#btn-acasa {
+  padding: 30px 50px;
+}
+#btn-scanstart {
+  padding: 30px 30px;
+}
+#btn-servicii {
 
+  padding: 30px 45px;
+}
+#btn-tarife {
+  padding: 30px 45px;
+}
+#btn-contact {
+  padding: 30px 40px;
+} 
 
 .nav a {
   display: block;
@@ -55,11 +70,13 @@ width: 100%;
   /* background-color: #444; */
   text-decoration: none;
   font-size: 10px;
-  padding: 25px 25px;
+  padding: 2px 25px;
   border-radius: 15px;
   font-weight: bold;
   transition: color 0.4s; 
 }
+
+
 
 #btn-acasa { background-color: #ff5733;font-size: 18px;}
 #btn-scanstart { background-color: #33c1ff;font-size: 18px; }
@@ -95,10 +112,11 @@ width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   list-style: none;
   margin: 0;
-  padding: 10px 0;
+  
   /* border-radius: 8px; */
   z-index: 1001;
   min-width: 250px;
+  
  
 } 
 
@@ -111,6 +129,7 @@ width: 100%;
 
 .dropdown {
   position: relative;
+
 }
 
 .dropdown:hover .submenu {
@@ -121,8 +140,8 @@ width: 100%;
 }
 
 .submenu li {
-  display: block;
-  padding: 10px 20px;
+  
+  padding: 10px 10px;
   color: #333;
   text-decoration: none;
   font-size: 16px;
