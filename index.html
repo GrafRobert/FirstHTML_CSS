@@ -5,35 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scanstart</title>
     <link rel="stylesheet" href="style.css" />
-    
-   
-
   </head>
   <body>
-
-
-     <div id="popup" class="popup-overlay">
+    
+    <div id="popup" class="popup-overlay">
       <div class="popup-content">
         <div class="popup-header">
-        <img src="logo.png" alt="Logo Site" class="popup-logo" />
-        <button class="close-x" onclick="closePopup()">×</button>
+          <img src="logo.png" alt="Logo Site" class="popup-logo" />
+          <button class="close-x" onclick="closePopup()">×</button>
         </div>
 
         <div class="popup-body">
-        <h2>SCANSTART OFERA:</h2>
-        <p>
-          Noile solutii pentru CEI!
-        </p> 
-        <button  onclick="window.location.href='CEI.html'" class="link-btn">Afla acum despre noile servicii SCANSTART</button>
+          <h2>SCANSTART OFERA:</h2>
+          <p>Noile solutii pentru CEI!</p>
+          <button onclick="window.location.href='CEI.html'" class="link-btn">
+            Afla acum despre noile servicii SCANSTART
+          </button>
         </div>
       </div>
-      </div>
-   
+    </div>
 
-    <div >
-
-      
-
+    <div>
       <div class="nav">
         <div class="nav-container">
           <div class="logo">
@@ -110,16 +102,14 @@
       </div>
     </div>
 
-
     <script>
-    window.onload = function() {
-      document.getElementById("popup").style.display = "flex";
-    };
+      window.onload = function () {
+        document.getElementById("popup").style.display = "flex";
+      };
 
-    function closePopup() {
-      document.getElementById("popup").style.display = "none";
-    }
-  </script>
-
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+      }
+    </script>
   </body>
 </html>
