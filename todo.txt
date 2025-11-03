@@ -1,9 +1,1 @@
-Separare css - CEI
-img urile in assets folder
-tranzitie pagina principala/ secundara
-variabila locala pentru pop up (setata pe true )-local storage
-modificarea tuturor cesctiunilor CEI printr o singura clasa;
 
-documentatie:
-    -explic situatia 
-    -explic ierarhia/ structura proiectului
