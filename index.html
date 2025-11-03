@@ -103,12 +103,17 @@
 
     <script>
       window.onload = function () {
-        document.getElementById("popup").style.display = "flex";
-      };
+    const popupShown = sessionStorage.getItem("popupShown");
 
-      function closePopup() {
-        document.getElementById("popup").style.display = "none";
-      }
+    if (!popupShown) {
+      document.getElementById("popup").style.display = "flex";
+      sessionStorage.setItem("popupShown", "true");
+    }
+  };
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
 
       const img = document.querySelector(".s1-img");
       window.addEventListener("load", () => {
