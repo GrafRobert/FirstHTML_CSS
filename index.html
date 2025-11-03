@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <div id="popup" class="popup-overlay">
       <div class="popup-content">
         <div class="popup-header">
-          <img src="logo.png" alt="Logo Site" class="popup-logo" />
+          <img src="Assets/logo.png" alt="Logo Site" class="popup-logo" />
           <button class="close-x" onclick="closePopup()">×</button>
         </div>
 
@@ -29,7 +28,7 @@
       <div class="nav">
         <div class="nav-container">
           <div class="logo">
-            <img src="logo.png" alt="Logo Site" />
+            <img src="Assets/logo.png" alt="Logo Site" />
           </div>
 
           <ul>
@@ -84,7 +83,7 @@
           </div>
 
           <div class="s1-img">
-            <img src="scanner.png" alt="Scanner" height="350px" />
+            <img src="Assets/scanner.png" alt="Scanner" height="350px" />
           </div>
         </div>
 
@@ -96,7 +95,7 @@
             </p>
           </div>
           <div class="s2-img">
-            <img src="app1.png" alt="Scanner" />
+            <img src="Assets/app1.png" alt="Scanner" />
           </div>
         </div>
       </div>
@@ -110,6 +109,16 @@
       function closePopup() {
         document.getElementById("popup").style.display = "none";
       }
+
+      const img = document.querySelector(".s1-img");
+      window.addEventListener("load", () => {
+        img.classList.add("show");
+      });
+
+       const img1 = document.querySelector(".s2-img");
+      window.addEventListener("load", () => {
+        img1.classList.add("show");
+      });
     </script>
   </body>
 </html>
